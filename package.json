@@ -8,8 +8,7 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "homepage": "https://sahibsood4.github.io"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -20,7 +19,6 @@
     "@react-three/rapier": "^1.5.0",
     "@types/three": "^0.168.0",
     "@vercel/analytics": "^1.4.1",
-    "gsap": "^3.12.7",
     "locomotive-scroll": "^4.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -31,7 +29,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
-    "@types/gsap": "^1.20.2",
     "@types/locomotive-scroll": "^4.1.4",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
