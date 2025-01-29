@@ -6,6 +6,9 @@ export default defineConfig({
   plugins: [react()],
   base: "/",
   build: {
-    outDir: 'dist',
+    outDir: 'dist', // Output folder
+    rollupOptions: {
+      input: './index.html', // Main entry point for Vite
+    },
   },
 });
