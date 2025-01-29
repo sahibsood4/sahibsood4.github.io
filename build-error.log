@@ -1,0 +1,18 @@
+
+> sahib-portfolio@0.0.0 build
+> tsc -b && vite build
+
+src/components/Character/utils/lighting.ts(3,22): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/Character/utils/resizeUtils.ts(2,31): error TS2307: Cannot find module 'gsap/ScrollTrigger' or its corresponding type declarations.
+src/components/Character/utils/resizeUtils.ts(19,35): error TS7006: Parameter 'trigger' implicitly has an 'any' type.
+src/components/Cursor.tsx(3,18): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/Navbar.tsx(4,31): error TS2307: Cannot find module 'gsap/ScrollTrigger' or its corresponding type declarations.
+src/components/Navbar.tsx(6,22): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/utils/GsapScroll.ts(2,18): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/utils/initialFX.ts(1,18): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/utils/splitText.ts(1,22): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/utils/splitText.ts(2,31): error TS2307: Cannot find module 'gsap/ScrollTrigger' or its corresponding type declarations.
+src/components/WhatIDo.tsx(3,31): error TS2307: Cannot find module 'gsap/ScrollTrigger' or its corresponding type declarations.
+src/components/Work.tsx(81,18): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+src/components/Work.tsx(82,31): error TS2307: Cannot find module 'gsap/ScrollTrigger' or its corresponding type declarations.
+src/components/Work.tsx(83,25): error TS2307: Cannot find module '@gsap/react' or its corresponding type declarations.

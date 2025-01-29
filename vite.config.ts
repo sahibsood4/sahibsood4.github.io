@@ -8,7 +8,8 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Output folder
     rollupOptions: {
-      input: './index.html', // Main entry point
+      input: './index.html',
+      external: ["gsap-trial", "ScrollSmoother"], // Main entry point
       output: {
         entryFileNames: 'assets/main.js', // Force files into /assets/
         chunkFileNames: 'assets/[name]-[hash].js', // For code splitting
