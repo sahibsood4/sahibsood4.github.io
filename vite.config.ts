@@ -6,9 +6,12 @@ export default defineConfig({
   plugins: [react()],
   base: "/",
   build: {
-    outDir: 'dist', // Output folder
+    outDir: 'dist',
     rollupOptions: {
-      input: './index.html', // Main entry point for Vite
+      input: './index.html', // Ensures Vite processes the correct entry file
+      output: {
+        entryFileNames: 'main.js', // ✅ This keeps `main.tsx` compiled as `main.js`
+      },
     },
   },
 });
