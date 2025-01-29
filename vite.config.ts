@@ -6,11 +6,13 @@ export default defineConfig({
   plugins: [react()],
   base: "/",
   build: {
-    outDir: 'dist',
+    outDir: 'dist', // Output folder
     rollupOptions: {
-      input: './index.html', // Ensures Vite processes the correct entry file
+      input: './index.html', // Main entry point
       output: {
-        entryFileNames: 'main.js', // ✅ This keeps `main.tsx` compiled as `main.js`
+        entryFileNames: 'assets/main.js', // Force files into /assets/
+        chunkFileNames: 'assets/[name]-[hash].js', // For code splitting
+        assetFileNames: 'assets/[name]-[hash].[ext]', // For other assets
       },
     },
   },
