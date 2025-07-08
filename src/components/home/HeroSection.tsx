@@ -20,8 +20,8 @@ const HeroSection = () => {
               Program Manager | Software Engineer | SQL | Python | Power BI
             </h2>
             <p className="text-lg text-slate-300 mb-8 max-w-2xl animate-slide-in" style={{animationDelay: "100ms"}}>
-              Data-driven Business Analyst with a software engineering background, passionate about leveraging data analytics,
-              visualization, and automation to drive business growth.
+            I'm a software engineer and program manager with 5+ years of experience leading release management across healthcare, media, and enterprise tech. I specialize in delivering high-impact tools — from automation and dashboards to full release systems — that improve efficiency, reduce risk, and scale across diverse user bases.
+            I blend technical skills, agile leadership, and user-centered thinking to ship solutions that solve real business problems.
             </p>
             <div className="flex flex-wrap gap-4 animate-slide-in" style={{animationDelay: "200ms"}}>
               <Button asChild className="bg-theme-blue hover:bg-theme-dark-blue text-white">
