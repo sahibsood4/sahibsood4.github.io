@@ -23,7 +23,7 @@ const About = () => {
                 <div className="p-8 md:p-10 md:w-2/3">
                   <h2 className="text-2xl font-bold text-slate-900 mb-4">Sahib Sood</h2>
                   <p className="text-lg text-theme-blue font-medium mb-6">
-                    Data Analytics | Software Engineer | SQL | Python | Power BI
+                    Program Manager | Software Engineer | SQL | Python | Power BI
                   </p>
                   <p className="text-slate-700 mb-6">
                     Data-driven Business Analyst with a software engineering background, passionate about leveraging data analytics,
@@ -132,7 +132,7 @@ const About = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-slate-900">Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore</h3>
-                      <p className="text-theme-blue font-medium">Bachelor of Technology - BTech, Information Technology</p>
+                      <p className="text-theme-blue font-medium">Bachelor of Technology - BTech, Computer Science</p>
                       <p className="text-slate-600">2018 - 2022</p>
                     </div>
                   </div>
