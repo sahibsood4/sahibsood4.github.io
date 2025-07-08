@@ -17,7 +17,7 @@ const HeroSection = () => {
               </h1>
             </div>
             <h2 className="text-xl md:text-2xl text-slate-300 mb-8 animate-slide-in">
-              Data Analytics | Software Engineer | SQL | Python | Power BI
+              Program Manager | Software Engineer | SQL | Python | Power BI
             </h2>
             <p className="text-lg text-slate-300 mb-8 max-w-2xl animate-slide-in" style={{animationDelay: "100ms"}}>
               Data-driven Business Analyst with a software engineering background, passionate about leveraging data analytics,
